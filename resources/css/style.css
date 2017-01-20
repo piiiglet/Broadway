@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  margin: 0;
 }
 
 header, h3.alt-heading {
@@ -8,6 +9,14 @@ header, h3.alt-heading {
 
 nav li {
   list-style: none;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+header > nav li {
+  margin: 14px 0;
 }
 
 footer > nav {
@@ -27,12 +36,13 @@ h1,h2,h3 {
   font-weight: bold;
 }
 
-h1, h3.alt-heading, a {
+h1, h3.alt-heading, a, .copyright {
   color: white;
 }
 
 h1 {
   font-size: 70px;
+  margin-top: 0;
 }
 
 h2 {
